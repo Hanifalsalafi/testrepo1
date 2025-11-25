@@ -1,0 +1,18 @@
+{% extends "common_code/base.html" %}
+{% load static %}
+<title>{% block title %} Payment-2 {% endblock title %}</title>
+
+
+
+
+{% block img %}
+    <img
+        src="{% static 'images/toy-car.jpg' %}"
+        alt=""
+    />
+    {% endblock img %}
+
+<!-- content change tag-->
+{% block content %}
+<h2>This is our payment-2 page</h2>
+{% endblock content %}

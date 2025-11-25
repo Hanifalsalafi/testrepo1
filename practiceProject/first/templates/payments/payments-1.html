@@ -1,0 +1,14 @@
+{% extends "common_code/base.html" %}
+{% load static %}
+<title>{% block title %} Payment-1 {% endblock title %}</title>
+
+
+<!-- Inherited css -->
+{% block css %}
+    <link rel="stylesheet" href="{% static "css/style.css" %} ">
+    {% endblock css %}
+   
+ <!-- content change tag-->
+ {% block content %}
+ <h1> This is our Payment- 1 Page</h1>
+ {% endblock content %}  
